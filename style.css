@@ -1,0 +1,70 @@
+html,body{
+    margin: 10;
+    padding: 10;
+    text-align: center;
+}
+
+#name-1{
+  font-size: 50px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 420px;
+    border: solid black;
+    margin-left: 37%;
+}
+
+.grid div {
+    width: 15px;
+    height: 15px;
+    
+}
+
+.pac-dot{
+    background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall{
+    background-color: rgb(73, 73, 220);
+}
+
+.power-pellet{
+    background-color: green;
+    border-radius: 7.5px;
+}
+
+.pacman{
+    background-color: rgb(220, 106, 0);
+    border-radius: 7.5px;
+    border: none;
+}
+
+.naruto{
+    background-color: purple;
+    border: none;
+}
+
+.onepiece{
+    background-color: pink;
+    border: none;
+}
+
+.hxh{
+    background-color: blue;
+    border: none;
+}
+
+.bleach{
+    background-color: orange;
+    border: none;
+}
+
+.scared-ghost{
+    background-color: red;
+    border: none;
+}
